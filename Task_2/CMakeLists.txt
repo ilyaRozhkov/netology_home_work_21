@@ -1,0 +1,3 @@
+cmake_minimum_required(VERSION 3.22.0)
+project(my_first_cmake_project)
+add_executable(my_first_cmake_program source.cpp  "Figure.h" "Figure.cpp" "Triangle.h" "Triangle.cpp" "RightTriangle.h" "RightTriangle.cpp" "IsoscelesTriangle.h" "IsoscelesTriangle.cpp" "EquilateralTriangle.h" "EquilateralTriangle.cpp" "Quadrangle.h" "Quadrangle.cpp" "Parallelogram.h" "Parallelogram.cpp" "Rectangles.h" "Rectangles.cpp" "Rhombus.h" "Rhombus.cpp" "Square.h" "Square.cpp")

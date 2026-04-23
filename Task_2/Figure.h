@@ -1,0 +1,12 @@
+#pragma once
+
+#include <string>
+
+class Figure {
+protected:
+    std::string name;
+public:
+    virtual ~Figure() = default;
+    virtual void print_info() const = 0;
+    std::string get_name() const { return name; }
+};
